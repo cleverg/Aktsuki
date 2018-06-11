@@ -33,7 +33,7 @@ var conversation = new watson.ConversationV1({
   // After that, the SDK will fall back to the bluemix-provided VCAP_SERVICES environment property
   username: process.env.ASSISTANT_USERNAME || '7ef4ca1e-61d0-4b63-9893-4a95bea56bff',
   password: process.env.ASSISTANT_PASSWORD || 'SArTXkQQ34KI',
-  version_date: '2018-02-16'
+  version_date: '2018-05-22'
 });
 
 // Endpoint to be call from the client side
